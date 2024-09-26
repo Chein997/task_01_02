@@ -5,7 +5,7 @@ public class Doctor extends Human {
     }
 
     @Override
-    public String toString() {
-        return "Лечащий врач: " + getName() + ' ' + getSurname() + ", Пол: " + getGender();
+    public String get() {
+        return "\nЛечащий врач: " + getName() + ' ' + getSurname() + ", Пол: " + getGender();
     }
 }
