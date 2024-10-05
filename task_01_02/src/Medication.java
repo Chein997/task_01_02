@@ -5,8 +5,8 @@ public class Medication extends Ilness {
     }
 
     @Override
-    public String toString(){
-        return "Болезнь: " + getNameIl() +"\n" + "Лекарства: " + getPills();
+    public String get(){
+        return "\nБолезнь: " + getNameIl() +"\n" + "Лекарства: " + getPills();
     }
 
 }

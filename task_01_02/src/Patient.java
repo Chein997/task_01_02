@@ -4,8 +4,7 @@ public class Patient extends Human{
     }
 
     @Override
-    public String toString() {
-        return "пациента: " + getName() + ' ' + getSurname() + ", Пол: " + getGender();
+    public String get() {
+        return "Мед карта пациента: " + getName() + ' ' + getSurname() + ", Пол: " + getGender();
     }
 }
-

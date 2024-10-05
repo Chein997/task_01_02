@@ -1,4 +1,4 @@
-public class Human {
+public abstract class Human implements MedCard {
     private String name;
     private String surname;
     private String gender;
