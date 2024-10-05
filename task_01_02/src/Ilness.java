@@ -1,4 +1,4 @@
-public abstract class Ilness extends MedCard {
+public abstract class Ilness implements MedCard {
     private String nameIl;
     private String pills;
 
